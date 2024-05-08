@@ -18,7 +18,7 @@ const MovieDetail = ({title}) => {
 
   },[params.id])
   
-
+  //eslint-disable-next-line
   const pageTitle=   useTitle(`${movie.title}`);  
 
   return (

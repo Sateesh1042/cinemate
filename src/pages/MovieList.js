@@ -3,7 +3,7 @@ import {useFetch,useTitle} from "../hooks/index"
 
 const MovieList = ({apiPath,title}) => {
   const {data} = useFetch(apiPath)
-  const pageTitle=  useTitle(`${title}`);  
+  useTitle(`${title}`);  
   
   return (
     <main>
